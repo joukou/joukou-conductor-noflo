@@ -19,7 +19,8 @@
     "q": "1.0.1",
     "lodash": "~2.4.1",
     "schemajs": "~0.1.11",
-    "node-uuid": "~1.4.1"
+    "node-uuid": "~1.4.1",
+    "joukou-conductor-systemd": "git://github.com/joukou/joukou-conductor-systemd.git#v0.0.1"
   },
   "devDependencies": {
     "chai": "1.9.x",
@@ -45,7 +46,6 @@
     "sinon": "1.10.x",
     "sinon-chai": "2.6.x",
     "proxyquire": "~1.0.1",
-    "restify": "~2.8.3",
-    "joukou-conductor-systemd": "git://github.com/joukou/joukou-conductor-systemd.git#v0.0.1"
+    "restify": "~2.8.3"
   }
 }
