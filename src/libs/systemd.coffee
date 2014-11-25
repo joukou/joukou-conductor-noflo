@@ -1,4 +1,4 @@
-{ SystemDUnitFile } = require("conductor/systemd")
+{ SystemDUnitFile } = require("joukou-conductor-systemd")
 _                   = require("lodash")
 
 createFromSchema = (input,
