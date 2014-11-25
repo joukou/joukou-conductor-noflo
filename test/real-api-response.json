@@ -1,0 +1,471 @@
+{
+  "properties": {
+    "name": "Default Graph",
+    "metadata": {
+      "key": "fb72bf1d-3a4c-448f-b679-bc5a47544fca",
+      "x": 261.60062484585137,
+      "y": 206.37819297852843,
+      "scale": 0.8253616645702446
+    }
+  },
+  "connections": [
+    {
+      "tgt": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/ddf9ba4f-b9b0-4d68-9471-8d1cb77dc39c",
+        "port": "data",
+        "metadata": {
+          
+        }
+      },
+      "src": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/308e1bba-189e-471d-b896-6b66795aa30c",
+        "port": "data",
+        "metadata": {
+          
+        }
+      },
+      "metadata": {
+        "key": "0daf38ef-6689-43a5-afb0-0109f62586f4"
+      }
+    },
+    {
+      "tgt": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/df51db93-ba4d-4330-9ac1-c5793b4cce0c",
+        "port": "data",
+        "metadata": {
+          
+        }
+      },
+      "src": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/ddf9ba4f-b9b0-4d68-9471-8d1cb77dc39c",
+        "port": "endpoint",
+        "metadata": {
+          
+        }
+      },
+      "metadata": {
+        "key": "a13404e5-cb32-4377-bea6-ba37a506831f"
+      }
+    },
+    {
+      "tgt": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/974dc091-0874-44df-8f1c-a7a9d1a93e79",
+        "port": "data",
+        "metadata": {
+          
+        }
+      },
+      "src": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/ddf9ba4f-b9b0-4d68-9471-8d1cb77dc39c",
+        "port": "err",
+        "metadata": {
+          
+        }
+      },
+      "metadata": {
+        "key": "11a84657-be68-4943-9fc2-737510f165c3"
+      }
+    },
+    {
+      "tgt": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/308e1bba-189e-471d-b896-6b66795aa30c",
+        "port": "query",
+        "metadata": {
+          
+        }
+      },
+      "src": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/27b50d2f-6074-45dc-bb37-5aee6e87c15d",
+        "port": "err",
+        "metadata": {
+          
+        }
+      },
+      "metadata": {
+        "key": "5d8cc0f6-8e22-479c-b56c-04550e5db774"
+      }
+    },
+    {
+      "tgt": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/27b50d2f-6074-45dc-bb37-5aee6e87c15d",
+        "port": "data",
+        "metadata": {
+          
+        }
+      },
+      "src": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/308e1bba-189e-471d-b896-6b66795aa30c",
+        "port": "error",
+        "metadata": {
+          
+        }
+      },
+      "metadata": {
+        "key": "56e4d171-98fe-4530-8799-937d4c75f532"
+      }
+    },
+    {
+      "tgt": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/131df84b-34f3-4959-b634-5167a54fcb4c",
+        "port": "query",
+        "metadata": {
+          
+        }
+      },
+      "src": {
+        "process": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/7966e5ad-d0ee-4c45-849c-b0cf9b8e3ed7",
+        "port": "data",
+        "metadata": {
+          
+        }
+      },
+      "metadata": {
+        "key": "d3e3e155-3255-4445-92b0-520cf9a446c4"
+      }
+    }
+  ],
+  "processes": {
+    "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/308e1bba-189e-471d-b896-6b66795aa30c": {
+      "id": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/308e1bba-189e-471d-b896-6b66795aa30c",
+      "component": "ab449407-e574-4a63-b498-b926ae9c161c",
+      "metadata": {
+        "circle": {
+          "key": "ab449407-e574-4a63-b498-b926ae9c161c",
+          "value": {
+            "description": "Obtain data from a MySQL database.",
+            "icon": "database",
+            "subgraph": false,
+            "inports": [
+              {
+                "id": "query",
+                "name": "query",
+                "description": "The SELECT query to run against the MySQL database.",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "hostname",
+                "name": "hostname",
+                "description": "The hostname of the MySQL database.",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "username",
+                "name": "username",
+                "description": "The username for the MySQL database.",
+                "addressable": false,
+                "required": true
+              }
+            ],
+            "outports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "The rows found by the MySQL query.",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "error",
+                "name": "error",
+                "description": "Any errors as a result of connecting to the database or executing the query",
+                "addressable": false,
+                "required": false
+              }
+            ]
+          }
+        },
+        "key": "308e1bba-189e-471d-b896-6b66795aa30c",
+        "image": "quay.io/joukou/joukou-circles-mysql",
+        "label": "MySQL Query",
+        "x": 324,
+        "y": 424
+      }
+    },
+    "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/ddf9ba4f-b9b0-4d68-9471-8d1cb77dc39c": {
+      "id": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/ddf9ba4f-b9b0-4d68-9471-8d1cb77dc39c",
+      "component": "bbfe54f3-7f14-4235-8377-cd88e80a5268",
+      "metadata": {
+        "circle": {
+          "key": "bbfe54f3-7f14-4235-8377-cd88e80a5268",
+          "value": {
+            "description": "Publish a search API.",
+            "icon": "search",
+            "subgraph": false,
+            "inports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "The data to index for searching",
+                "addressable": false,
+                "required": true
+              }
+            ],
+            "outports": [
+              {
+                "id": "endpoint",
+                "name": "endpoint",
+                "description": "The URL of the search API endpoint",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "err",
+                "name": "err",
+                "description": "Any errors",
+                "addressable": false,
+                "required": true
+              }
+            ]
+          }
+        },
+        "key": "ddf9ba4f-b9b0-4d68-9471-8d1cb77dc39c",
+        "image": "quay.io/joukou/joukou-circles-search",
+        "label": "Publish Search API",
+        "x": 826,
+        "y": 465
+      }
+    },
+    "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/131df84b-34f3-4959-b634-5167a54fcb4c": {
+      "id": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/131df84b-34f3-4959-b634-5167a54fcb4c",
+      "component": "ab449407-e574-4a63-b498-b926ae9c161c",
+      "metadata": {
+        "circle": {
+          "key": "ab449407-e574-4a63-b498-b926ae9c161c",
+          "value": {
+            "description": "Obtain data from a MySQL database.",
+            "icon": "database",
+            "subgraph": false,
+            "inports": [
+              {
+                "id": "query",
+                "name": "query",
+                "description": "The SELECT query to run against the MySQL database.",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "hostname",
+                "name": "hostname",
+                "description": "The hostname of the MySQL database.",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "username",
+                "name": "username",
+                "description": "The username for the MySQL database.",
+                "addressable": false,
+                "required": true
+              }
+            ],
+            "outports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "The rows found by the MySQL query.",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "error",
+                "name": "error",
+                "description": "Any errors as a result of connecting to the database or executing the query",
+                "addressable": false,
+                "required": false
+              }
+            ]
+          }
+        },
+        "key": "131df84b-34f3-4959-b634-5167a54fcb4c",
+        "image": "quay.io/joukou/joukou-circles-mysql",
+        "label": "MySQL Query",
+        "x": 507,
+        "y": 60
+      }
+    },
+    "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/974dc091-0874-44df-8f1c-a7a9d1a93e79": {
+      "id": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/974dc091-0874-44df-8f1c-a7a9d1a93e79",
+      "component": "bbfe54f3-7f14-4235-8377-cd88e80a5268",
+      "metadata": {
+        "circle": {
+          "key": "bbfe54f3-7f14-4235-8377-cd88e80a5268",
+          "value": {
+            "description": "Publish a search API.",
+            "icon": "search",
+            "subgraph": false,
+            "inports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "The data to index for searching",
+                "addressable": false,
+                "required": true
+              }
+            ],
+            "outports": [
+              {
+                "id": "endpoint",
+                "name": "endpoint",
+                "description": "The URL of the search API endpoint",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "err",
+                "name": "err",
+                "description": "Any errors",
+                "addressable": false,
+                "required": true
+              }
+            ]
+          }
+        },
+        "key": "974dc091-0874-44df-8f1c-a7a9d1a93e79",
+        "image": "quay.io/joukou/joukou-circles-search",
+        "label": "Publish Search API",
+        "x": 1280,
+        "y": 453
+      }
+    },
+    "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/df51db93-ba4d-4330-9ac1-c5793b4cce0c": {
+      "id": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/df51db93-ba4d-4330-9ac1-c5793b4cce0c",
+      "component": "40f6685a-8860-4176-b78b-0c594db1c9b2",
+      "metadata": {
+        "circle": {
+          "key": "40f6685a-8860-4176-b78b-0c594db1c9b2",
+          "value": {
+            "description": "Anonymize data",
+            "icon": "user",
+            "subgraph": false,
+            "inports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "The data to anonymize",
+                "addressable": false,
+                "required": true
+              }
+            ],
+            "outports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "TThe anonymized data",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "err",
+                "name": "err",
+                "description": "Any errors",
+                "addressable": false,
+                "required": true
+              }
+            ]
+          }
+        },
+        "key": "df51db93-ba4d-4330-9ac1-c5793b4cce0c",
+        "image": "quay.io/joukou/joukou-circles-anonymizer",
+        "label": "Anonymizer",
+        "x": 1101,
+        "y": 161
+      }
+    },
+    "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/27b50d2f-6074-45dc-bb37-5aee6e87c15d": {
+      "id": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/27b50d2f-6074-45dc-bb37-5aee6e87c15d",
+      "component": "40f6685a-8860-4176-b78b-0c594db1c9b2",
+      "metadata": {
+        "circle": {
+          "key": "40f6685a-8860-4176-b78b-0c594db1c9b2",
+          "value": {
+            "description": "Anonymize data",
+            "icon": "user",
+            "subgraph": false,
+            "inports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "The data to anonymize",
+                "addressable": false,
+                "required": true
+              }
+            ],
+            "outports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "TThe anonymized data",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "err",
+                "name": "err",
+                "description": "Any errors",
+                "addressable": false,
+                "required": true
+              }
+            ]
+          }
+        },
+        "key": "27b50d2f-6074-45dc-bb37-5aee6e87c15d",
+        "image": "quay.io/joukou/joukou-circles-anonymizer",
+        "label": "Anonymizer",
+        "x": 981,
+        "y": -83
+      }
+    },
+    "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/7966e5ad-d0ee-4c45-849c-b0cf9b8e3ed7": {
+      "id": "/persona/cc991852-b3a3-4c2d-be07-3ac51790add3/graph/fb72bf1d-3a4c-448f-b679-bc5a47544fca/process/7966e5ad-d0ee-4c45-849c-b0cf9b8e3ed7",
+      "component": "40f6685a-8860-4176-b78b-0c594db1c9b2",
+      "metadata": {
+        "circle": {
+          "key": "40f6685a-8860-4176-b78b-0c594db1c9b2",
+          "value": {
+            "description": "Anonymize data",
+            "icon": "user",
+            "subgraph": false,
+            "inports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "The data to anonymize",
+                "addressable": false,
+                "required": true
+              }
+            ],
+            "outports": [
+              {
+                "id": "data",
+                "name": "data",
+                "description": "TThe anonymized data",
+                "addressable": false,
+                "required": true
+              },
+              {
+                "id": "err",
+                "name": "err",
+                "description": "Any errors",
+                "addressable": false,
+                "required": true
+              }
+            ]
+          }
+        },
+        "key": "7966e5ad-d0ee-4c45-849c-b0cf9b8e3ed7",
+        "image": "quay.io/joukou/joukou-circles-anonymizer",
+        "label": "Anonymizer",
+        "x": 310,
+        "y": 100
+      }
+    }
+  },
+  "outports": {
+    
+  },
+  "inports": {
+    
+  }
+}
